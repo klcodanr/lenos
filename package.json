@@ -1,0 +1,35 @@
+{
+  "name": "lenos",
+  "version": "1.0.0",
+  "description": "A test orchestration and reusiblilty library",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "ts-mocha test/*",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "keywords": [
+    "test",
+    "typescript"
+  ],
+  "author": "Dan Klco",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/chai": "^4.2.22",
+    "@types/mocha": "^9.0.0",
+    "@types/mocha-steps": "^1.3.0",
+    "prettier": "^2.5.0",
+    "ts-mocha": "^8.0.0",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "mocha-steps": "^1.3.0",
+    "winston": "^3.3.3"
+  }
+}
